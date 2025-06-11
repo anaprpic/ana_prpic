@@ -1,0 +1,65 @@
+.naslov{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-left: 30px;
+    padding-top: 20px;
+    color: rgb(52, 29, 73);
+} 
+
+.navigacija{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+    color: whitesmoke;
+    padding-right: 30px;
+} 
+
+.navigacija ul{
+    text-decoration: none;
+    list-style: none;
+    color: rgb(52, 29, 73);
+}
+
+body{
+   background-color: rgb(179, 146, 209);
+}
+
+.opis{
+   font-family: Arial, Helvetica, sans-serif;
+   text-align: center;
+}
+
+.opis h3{
+   text-align: left;
+   padding-left: 180px;
+}
+
+.liste{
+    display: flex;
+    gap: 40px;
+    justify-content: left;
+    align-items: flex-start;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.liste-blok{
+    text-align: left;
+    border: 2px solid whitesmoke;
+    color: #31173d;
+    margin-top: 0 auto;
+    width: 200px;
+    padding-left: 10px;
+}
+
+.img {
+    margin: 10px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    width: 300px;
+}
+
+.video, audio, iframe {
+display: block;
+margin: 20px 0;
+}
