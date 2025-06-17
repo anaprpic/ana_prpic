@@ -1,65 +1,48 @@
-.naslov{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    padding-left: 30px;
-    padding-top: 20px;
-    color: rgb(52, 29, 73);
-} 
 
-.navigacija{
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: right;
-    color: whitesmoke;
-    padding-right: 30px;
-} 
-
-.navigacija ul{
-    text-decoration: none;
-    list-style: none;
-    color: rgb(52, 29, 73);
+body {
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
 }
 
-body{
-   background-color: rgb(179, 146, 209);
+header, main {
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.8);
 }
 
-.opis{
-   font-family: Arial, Helvetica, sans-serif;
-   text-align: center;
+h1 {
+  font-size: 3em;
+  color: #004080;
 }
 
-.opis h3{
-   text-align: left;
-   padding-left: 180px;
+.navigacija {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  background-color: #222;
+  padding: 10px;
+  margin: 0;
 }
 
-.liste{
-    display: flex;
-    gap: 40px;
-    justify-content: left;
-    align-items: flex-start;
-    color: whitesmoke;
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 20px;
-    flex-wrap: wrap;
+.navigacija li {
+  margin: 0 15px;
 }
 
-.liste-blok{
-    text-align: left;
-    border: 2px solid whitesmoke;
-    color: #31173d;
-    margin-top: 0 auto;
-    width: 200px;
-    padding-left: 10px;
+.navigacija a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
 }
 
-.img {
-    margin: 10px;
-    border: 2px solid #ddd;
-    border-radius: 8px;
-    width: 300px;
+.navigacija a:hover {
+  text-decoration: underline;
 }
 
-.video, audio, iframe {
-display: block;
-margin: 20px 0;
+.galerija img {
+  width: 200px;
+  margin: 10px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
 }
